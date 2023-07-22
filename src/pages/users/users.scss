@@ -1,3 +1,19 @@
 .users {
-  background-color: palegoldenrod;
+  .info {
+    display: flex;
+    padding: 10px;
+    h1 {
+      color: aliceblue;
+
+      margin-right: 5px;
+    }
+    button {
+      padding: 5px 10px;
+      border-radius: 8px;
+      color: rgb(20, 161, 74);
+      background: #e9d9eb;
+      border: none;
+      font-size: 18px;
+    }
+  }
 }
