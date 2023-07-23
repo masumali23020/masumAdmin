@@ -5,8 +5,10 @@ import Manu from "./component/manu/Manu";
 import Navber from "./component/navbar/Navber";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
+import Porduct from "./pages/product/Porduct";
 import Products from "./pages/products/Products";
 import Signup from "./pages/signup/Signup";
+import User from "./pages/user/User";
 import Users from "./pages/users/Users";
 import "./styles/global.scss";
 
@@ -50,6 +52,14 @@ function App() {
         {
           path: "products",
           element: <Products />,
+        },
+        {
+          path: "users/:id",
+          element: <User />,
+        },
+        {
+          path: "products/:id",
+          element: <Porduct />,
         },
       ],
     },
